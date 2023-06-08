@@ -1,4 +1,4 @@
-package DataStructure.구간합.구간합구하기_11659_S;
+package DataStructure.구간합.구간합구하기4_11659_S;
 
 import java.io.BufferedReader;
 import java.io.IOException;
