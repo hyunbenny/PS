@@ -24,15 +24,11 @@ public class Main {
         DNA = br.readLine().toCharArray();
 
         st = new StringTokenizer(br.readLine());
-        MIN_DNA.put('A', Integer.parseInt(st.nextToken()));
-        MIN_DNA.put('C', Integer.parseInt(st.nextToken()));
-        MIN_DNA.put('G', Integer.parseInt(st.nextToken()));
-        MIN_DNA.put('T', Integer.parseInt(st.nextToken()));
-
-        CHECK_DNA.put('A', 0);
-        CHECK_DNA.put('C', 0);
-        CHECK_DNA.put('G', 0);
-        CHECK_DNA.put('T', 0);
+        for (int i = 0; i < ESSENTIAL.length; i++) {
+            char ch = ESSENTIAL[i];
+            MIN_DNA.put(ch, Integer.parseInt(st.nextToken()));
+            CHECK_DNA.put(ch, 0);
+        }
 
         solution();
         System.out.println(result);
@@ -76,8 +72,7 @@ public class Main {
 
     private static void check() {
 
-        Set<Character> keys = MIN_DNA.keySet();
-        for (Character key : keys) {
+        for (char key : ESSENTIAL) {
             if(MIN_DNA.get(key) > CHECK_DNA.get(key)) return;
         }
         result++;
