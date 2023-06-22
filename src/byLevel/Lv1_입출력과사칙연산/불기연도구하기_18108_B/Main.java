@@ -1,4 +1,4 @@
-package byLevel.입출력과사칙연산.불기연도구하기_18108_B;
+package byLevel.Lv1_입출력과사칙연산.불기연도구하기_18108_B;
 
 import java.io.BufferedReader;
 import java.io.IOException;
