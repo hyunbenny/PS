@@ -12,6 +12,7 @@
 * [Lv6.심화1](https://github.com/hyunbenny/PS/tree/master/src/byLevel/Lv6_%EC%8B%AC%ED%99%941)
 * [Lv7.2차원 배열](https://github.com/hyunbenny/PS/tree/master/src/byLevel/Lv7_2%EC%B0%A8%EC%9B%90%EB%B0%B0%EC%97%B4)
 * [Lv8.일반수학1](https://github.com/hyunbenny/PS/tree/master/src/byLevel/Lv8_%EC%9D%BC%EB%B0%98%EC%88%98%ED%95%991)
+* [Lv9.약수 배수 소수](https://github.com/hyunbenny/PS/tree/master/src/byLevel/Lv9_%EC%95%BD%EC%88%98%EB%B0%B0%EC%88%98%EC%86%8C%EC%88%98)
 
 ### 2. [자료구조](https://github.com/hyunbenny/PS/tree/master/src/DataStructure)
 * [배열/리스트](https://github.com/hyunbenny/PS/tree/master/src/DataStructure/%EB%B0%B0%EC%97%B4_%EB%A6%AC%EC%8A%A4%ED%8A%B8)
